@@ -1,0 +1,12 @@
+<form action="/ideas" method="put">
+    <h1>Edit Video Idea</h1>
+    <div class="form-group">
+        <input type="text" name="title" value="{{ idea.title }}" class="form-control" placeholder="Enter text">
+    </div>
+    <div class="form-group">
+        <textarea name="details" class="form-control" placeholder="Enter details">{{ idea.details }}</textarea>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>
